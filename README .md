@@ -1,6 +1,6 @@
 # Café Aroma
 
-Sitio web desarrollado para la pre-entrega del proyecto integrador.
+Sitio web desarrollado como pre-entrega del Proyecto Integrador de Desarrollo Web.
 
 ## Tecnologías utilizadas
 
@@ -17,8 +17,8 @@ Sitio web desarrollado para la pre-entrega del proyecto integrador.
 - Navegación interna.
 - Catálogo de productos.
 - Sección de reseñas.
-- Formulario de contacto.
-- Diseño responsivo.
+- Formulario de contacto funcional.
+- Diseño responsivo para dispositivos móviles y computadoras.
 
 ## Autor
 
