@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Aroma</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="inicio">
+        <h1>Café Aroma</h1>
+        <p>El mejor café para cada momento</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#resenas">Reseñas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section class="hero">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1200"
+                alt="Taza de café sobre una mesa">
+        </section>
+
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+
+            <div class="productos">
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500"
+                        alt="Taza de café espresso">
+                    <h3>Espresso</h3>
+                    <p>Café intenso y aromático.</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=500"
+                        alt="Capuccino con espuma">
+                    <h3>Capuccino</h3>
+                    <p>Espuma suave y sabor único.</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=500"
+                        alt="Café latte">
+                    <h3>Latte</h3>
+                    <p>Perfecta combinación de café y leche.</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1509785307050-d4066910ec1e?w=500"
+                        alt="Café mocha con chocolate">
+                    <h3>Mocha</h3>
+                    <p>Chocolate y café en una sola taza.</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=500"
+                        alt="Medialunas recién horneadas">
+                    <h3>Medialunas</h3>
+                    <p>Recién horneadas todos los días.</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=500"
+                        alt="Porción de torta artesanal">
+                    <h3>Tortas</h3>
+                    <p>Postres artesanales.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="resenas">
+            <h2>Reseñas</h2>
+
+            <div class="grid-resenas">
+
+                <div class="resena">
+                    ⭐⭐⭐⭐⭐
+                    <p>"Excelente atención y café delicioso."</p>
+                </div>
+
+                <div class="resena">
+                    ⭐⭐⭐⭐⭐
+                    <p>"Muy buen ambiente para estudiar."</p>
+                </div>
+
+                <div class="resena">
+                    ⭐⭐⭐⭐⭐
+                    <p>"Las medialunas son increíbles."</p>
+                </div>
+
+                <div class="resena">
+                    ⭐⭐⭐⭐⭐
+                    <p>"Volveré sin dudas."</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="video">
+            <h2>Conocé Nuestra Cafetería</h2>
+
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/VTB2bXqVSlQ"
+                title="Video de presentación de la cafetería"
+                allowfullscreen>
+            </iframe>
+
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+
+            <!-- Reemplazá TU_CODIGO por el código que te proporciona Formspree -->
+            <form action="https://formspree.io/f/TU_CODIGO" method="POST">
+
+                <input
+                    type="text"
+                    name="nombre"
+                    placeholder="Nombre"
+                    required>
+
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Correo Electrónico"
+                    required>
+
+                <textarea
+                    name="mensaje"
+                    placeholder="Escribe tu mensaje"
+                    required></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Café Aroma - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
